@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/events.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/plugins/all_cdn.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- First Row -->
+        
+    
+        <!-- Second Row -->
+<div class="row mb-4">
+    <h4>Filters</h4>
+    <br>
+    <br>
+    <div class="col-sm-2">
+        <div class="form-check col-sm-12 filterByCity">
+            
+            <p>By city</p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="cityFilter" class="btn btn-secondary dropdown-toggle">
+                <option value="All">All Cities</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <!-- Add more cities as needed -->
+            </select>
+        </div>
+        <br>
+    
+        <!-- Checkbox for Standup Comedy -->
+        <div class="filterByGenre">
+            <p>By Genre</p>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input filter-checkbox" id="standupCheckbox" value="Comedy">
+                <label class="form-check-label" for="standupCheckbox">Standup Comedy</label>
+            </div>
+
+            <!-- Checkbox for Singing -->
+            <div class="form-check ">
+                <input type="checkbox" class="form-check-input filter-checkbox" id="singingCheckbox" value="Singing">
+                <label class="form-check-label" for="singingCheckbox">Singing</label>
+            </div>
+
+            <!-- Checkbox for Music Concert -->
+            <div class="form-check ">
+                <input type="checkbox" class="form-check-input filter-checkbox" id="musicCheckbox" value="Poetry">
+                <label class="form-check-label" for="musicCheckbox">Poetry</label>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-10  card-container">
+        <!-- Displayed events will go here -->
+    </div>
+</div>
+
+    
+        <!-- Third Row -->
+        
+           
+        <!-- Add more rows and columns as needed -->
+    
+    </div>
+    <script src="../js/controller/event_controller.js" type="module"></script>
+    <script src="../js/event_details.js" type="module"></script>
+    <script src="../js/event_sendingId.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="../css/events.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/plugins/all_cdn.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- First Row -->
+    
+        <!-- Second Row -->
+  
+        <div class="container eventDetail-container">
+            <div class="row mb-4">
+
+            </div>
+            <div class="row mb-4">
+                <h3>Event Details</h3>
+            </div>
+            <div class="details">
+                <div class="row mb-4">
+                    <div class="col">
+                        <strong>Title:</strong> <span id="eventTitle"></span>
+                    </div>
+                    <div class="col">
+                        <strong>Event ID:</strong> <span id="eventID"></span>
+                    </div>
+                <div>
+                <br>
+                <div class="row mb-4">
+                    <div class="col">
+                        <strong>Genre:</strong> <span id="eventGenre"></span>
+                    </div>
+                    <div class="col">
+                        <strong>Duration:</strong> <span id="eventDuration"></span>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                    <strong>Language:</strong> <span id="eventLanguage"></span>
+                    </div>
+                    <div class="col">
+                    <strong>Artist:</strong> <span id="eventArtist"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <strong>Rating:</strong> <span id="eventRating"></span>
+                    </div>
+                    <div class="col">
+                        <strong>Description:</strong> <span id="eventDescription"></span>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        <strong>Date:</strong> <span id="eventDate"></span>
+                    </div>
+                    <div class="col">
+                        <strong>Time:</strong> <span id="eventTime"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4 col-md-12 ">
+                <strong>Venue:</strong> <span id="eventVenue"></span>
+            </div>
+            <div class="row mb-4 col-md-3 text-center">
+                <div class="text-center">
+                    <input type="button" value="Book Ticket" class="bookTicket btn btn-outline-dark" id="bookTicket">
+                </div>
+            </div>
+            <br>
+            <div class="zones">
+                
+            </div>
+        
+            <!-- Add more details as needed -->
+            
+        </div>
+    </div>
+    
+    <script src="../js/controller/event_controller.js" type="module"></script>
+    <script src="../js/event_details.js" type="module"></script>
+    <script src="../js/event_sendingId.js" type="module"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+.card-container{
+    
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.eventDetail-container{
+   
+    position: relative;
+}
+
+.zones{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    gap: 10px;
+    padding: 7px;
+    
+
+}
+
+table {
+    width: 100%; /* Ensure the table takes the full width of the container */
+    border-collapse: collapse; /* Remove spacing between table cells */
+}
+.receiptDetails{
+    width: auto;
+    
+}
+
+.card-image{
+    max-height: 350px;
+    
+    object-fit: contain;
+    
+}
+
+.card{
+    flex-basis: fit-content;
+}
+p{
+    color: rgb(135, 136, 136);
+}
+
+.filterByCity,.filterByGenre{
+    
+    border: solid 2px rgb(135, 136, 136);
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 1rem;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.details{
+    background-color: rgb(215, 215, 215);
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+.receiptContainer{
+    border-radius: 8px;
+    border: 2px solid;
+    padding-bottom: 20px;
+}
