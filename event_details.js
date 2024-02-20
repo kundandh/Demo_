@@ -1,5 +1,5 @@
 import bookingService from "./services/bookingService.js";
-
+//this was a sample 
 $(document).ready(function () {
     // Fetch event ID from the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
